@@ -1,11 +1,10 @@
-﻿name: Simplw Workflow
+﻿name: Simple Workflow
 
 on: push
 
 jobs:
   Build:
     runs-on: macos-latest
-
     steps:
       - run: |
           echo "Hello, World!!"
